@@ -7,6 +7,7 @@ Voor opdracht B heb ik gekozen voor een quiz die de gebruiker uitlegt hoe hoog d
 De vragen zijn gebasseerd op het online onderzoek die ik gedaan heb met de diverse datasets. Ik wil ook aan de mensen zien die niet denken aan zelfmoord hoe de mindset in elkaar zit van mensen die eraan denken.
 
 ### Het process
+![alt text](schetsb.jpg "eerste ruwe schets")
 Het idee kwam voornamelijk vanuit mijn coach, Laurens. Hij kwam met het idee om een soort vragenlijst te hebben die gekoppeld zijn aan mijn datasets en om vanuit dit te kunnen afleiden hoe hoog de kans op zelfmoord is. Er zou ook een soort variabele kunnen verschijnen met elk antwoord. Toen het idee in mijn hoofd was moest ik alleen nog bepalen hoe ik dit zou uitwerken, met een prototyping tool of het proberen echt te maken. Ik besloot het risico te nemen en het zelf te coderen, want dat geeft mij meer voldoening. 
 
 Ik ging online opzoek naar manieren om een quiz te maken. Dit viel redelijk makkelijk vindbaar en ook best wel makkelijk. Ik moest alleen nog de vragen bedenken. Dit was niet al te moeilijk vanwege de datasets die ik gebruikte. Het coderen kon succesvol beginnen. Ik besloot ook de zelfde huisstijl te gebruiken als wat ik gebruikt had bij opdracht A, want dit geeft een verband met elkaar.
