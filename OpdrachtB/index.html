@@ -1,0 +1,148 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onLoad="populate()">
+<form name="personalityForm">
+<div class="wrapper container">
+
+
+  <div class="page-header">
+    <h1>Wat is de kans dat u zelfmoord gaat plegen</h1>
+    <p>Hieronder staat een vragenlijst. De vragen zijn gebasseerd op de reden dat mensen zelfmoord plegen.</p>
+  </div>
+
+
+  <div class="quiz-box quiz-1">
+    <div class="question-wrapper">
+      <h2 class="quiz-question">1. Bent u een man of een vrouw?</h2>
+      <span class="quiz-answer">
+        <label><input type="radio" class="option-input radio" name="q1" onClick="saver(1,0)">Man</label>
+        <label><input type="radio" class="option-input radio" name="q1" onClick="saver(1,4)">Vrouw</label>
+        <label><input type="radio" class="option-input radio" name="q1" onClick="saver(1,3)">Geboren als een man, maar voel me meer vrouw</label>
+        <label><input type="radio" class="option-input radio" name="q1" onClick="saver(1,2)">Geboren als een vrouw, maar voel me meer man</label>
+        <!-- <label><input type="radio" name="q1" onClick="saver(1,4)"> Black</label> -->
+      </span>
+    </div>
+  </div>
+
+
+  <div class="quiz-box quiz-2">
+    <h2 class="quiz-question">2. Wat is uw leeftijd?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,4)">Jonger dan 20</label>
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,3)">20 tot 30 jaar</label>
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,2)">30 tot 40 jaar</label>
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,1)">40 tot 50 jaar</label>
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,0)">50 tot 60</label>
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,0)">60 tot 80</label>
+      <label><input type="radio" class="option-input radio" name="q2" onClick="saver(2,0)">ouder dan 80</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-3">
+    <h2 class="quiz-question">3. Wat is uw burgelijke staat?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio" name="q3" onClick="saver(3,4)">Gehuwd</label>
+      <label><input type="radio" class="option-input radio" name="q3" onClick="saver(3,0)">Gescheiden</label>
+      <label><input type="radio" class="option-input radio" name="q3" onClick="saver(3,0)">Weduwe</label>
+      <label><input type="radio" class="option-input radio" name="q3" onClick="saver(3,3)">Niet gehuwd</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-4">
+    <h2 class="quiz-question">4. Hoe is uw relatie met uw ouders?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"   name="q4" onClick="saver(4,4)">Goed, ik spreek ze vaak in een week</label>
+      <label><input type="radio" class="option-input radio"   name="q4" onClick="saver(4,3)">Redelijk oke, ik spreek ze af en toe in de week</label>
+      <label><input type="radio" class="option-input radio"   name="q4" onClick="saver(4,2)">Geen slechte band, maar ook geen hechte band</label>
+      <label><input type="radio" class="option-input radio"   name="q4" onClick="saver(4,1)">Redelijk slecht, ik spreek ze zo goed als nooit</label>
+      <label><input type="radio" class="option-input radio"   name="q4" onClick="saver(4,0)">Slecht en/of overleden</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-5">
+    <h2 class="quiz-question">5. Bent u open met uw gevoelens tegenover anderen?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"  name="q5" onClick="saver(5,0)">Ik ben een erg gesloten persoon en heb moeite om mijn gevoelens te delen</label>
+      <label><input type="radio" class="option-input radio"  name="q5" onClick="saver(5,2)">Mijn gevoelens delen is iets dat ik liever niet doe, maar als het nodig is dan doe ik het</label>
+      <label><input type="radio" class="option-input radio"  name="q5" onClick="saver(5,3)">Ik kan mijn gevoelens zonder problemen delen, maar liever hou ik het voor me</label>
+      <label><input type="radio" class="option-input radio"  name="q5" onClick="saver(5,4)">Gevoelens delen doe ik graag. Als ik ergens mee zit dan deel ik dit graag</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-6">
+    <h2 class="quiz-question">6. Voelt u zich vaak alleen?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"  name="q6" onClick="saver(6,0)">Af en toe voel ik me alleen, maar ik zit er niet mee</label>
+      <label><input type="radio" class="option-input radio"  name="q6" onClick="saver(6,1)">Ik voel me vaak alleen en ik heb geen idee wat ik hiertegen moet doen</label>
+      <label><input type="radio" class="option-input radio"  name="q6" onClick="saver(6,2)">Ik voel me nooit alleen</label>
+      <label><input type="radio" class="option-input radio"  name="q6" onClick="saver(6,4)">Af en toe voel ik me alleen. Dit zit me wel dwars</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-7">
+    <h2 class="quiz-question">7. Hoe kijkt u tegen het leven aan?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"  name="q7" onClick="saver(7,3)">Het leven is er wat je ervan maakt</label>
+      <label><input type="radio" class="option-input radio"  name="q7" onClick="saver(7,4)">Het leven is een mooi iets</label>
+      <label><input type="radio" class="option-input radio"  name="q7" onClick="saver(7,1)">Het leven brengt veel goed en slechts met zich mee</label>
+      <label><input type="radio" class="option-input radio"  name="q7" onClick="saver(7,2)">Het leven stelt niet veel voor</label>
+      <label><input type="radio" class="option-input radio"  name="q7" onClick="saver(7,0)">Het leven is saai en voorspelbaar</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-8">
+    <h2 class="quiz-question">8. Heeft u kinderen?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"  name="q8" onClick="saver(8,4)">Ja</label>
+      <label><input type="radio" class="option-input radio"  name="q8" onClick="saver(8,0)">Nee</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-9">
+    <h2 class="quiz-question">9. Hoe gaat u om met tegenslagen?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"  name="q9" onClick="saver(9,4)">Ik leer het snel te accepteren en probeer het volgende keer beter te doen</label>
+      <label><input type="radio" class="option-input radio"  name="q9" onClick="saver(9,3)">Van tegenslagen leer ik van. Ik zit er totaal niet mee</label>
+      <label><input type="radio" class="option-input radio"  name="q9" onClick="saver(9,1)">Ik geef mezelf de schuld en zit er een tijdje mee</label>
+      <label><input type="radio" class="option-input radio"  name="q9" onClick="saver(9,2)">Ik zet me er snel overheen</label>
+      <label><input type="radio" class="option-input radio"  name="q9" onClick="saver(9,0)">Ik word depressief en weet niet wat ik moet doen</label>
+    </span>
+  </div>
+
+
+  <div class="quiz-box quiz-10">
+    <h2 class="quiz-question">10. Denkt u wel is aan zelfmoord?</h2>
+    <span class="quiz-answer">
+      <label><input type="radio" class="option-input radio"  name="10" onClick="saver(10,3)">Soms</label>
+      <label><input type="radio" class="option-input radio"  name="10" onClick="saver(10,5)">Nooit</label>
+      <label><input type="radio" class="option-input radio"  name="10" onClick="saver(10,0)">Altijd</label>
+    </span>
+  </div>
+
+
+  <div class="get-result">
+    <input class="btn btn-primary" type="button" name="result" value="Resultaat" onClick="total()">
+    <input class="btn btn-default" type="reset" value="Reset">
+  </div>
+
+
+  <div class="result-box">
+    <h3>De kans dat uw zelfmoord gaat plegen is: </h3>
+    <div id="result"></div>
+  </div>
+
+
+</div><!-- /.container -->
+</form>
+<script src="javascript.js"></script>
+</body>
+</html>
