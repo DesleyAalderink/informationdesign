@@ -13,6 +13,7 @@ Voor de opdracht wou ik de volgende inzichten kunnen zien:
 ### Het process
 
 ![alt text](schets1.jpg "eerste idee voor opdracht A")
+![alt text](schets2.jpg "tweede idee voor opdracht A wat het niet is geworde")
 
 Het process verliep een beetje stroef. Ik had me eerst gefocussed op zelfmoord en de burgelijke staat. Dit moest aantonen dat
 scheidingen invloed heeft op zelfmoord, maar ik had geen bewijs of goed genoeg onderzoek ernaar gedaan om dit te kunnen zeggen.
