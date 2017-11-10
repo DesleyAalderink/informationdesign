@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Line Chart</title>
+  </head>
+<body>
+  <h1>Zelfmoord, wie en waarom</h1>
+  <p>Voor opdracht A heb ik gekeken naar een dataset over zelfmoord.
+    Ik wou kijken naar de volgende factoren: Wie pleegt het meeste zelfmoord op het gebied van geslacht?
+    Welke leeftijdsgroep van dit geslacht pleegt het meeste zelfmoord en met wat voor reden?
+</p>
+  <div id="tooltip" class="hidden">
+      <p><strong id="name"></strong></p>
+      <p><span id="value">100</span></p>
+    </div>
+  <div>
+    <svg id="geslacht" width="960" height="500"></svg>
+  <p>
+    Ik begon met het verzamelen van data over zelfmoord van mannen en vrouwen door de jaren heen.
+    Uit dit blijkt het dat zelfmoord omhoog gaat met de jaren en dat voornamelijk mannen zelfmoord plegen. De vraag die nu omhoog komt is; waarom?
+  </p>
+    <svg id="leeftijd" width="960" height="500"></svg>
+  <p>
+    Ik ging opzoek naar een dataset waar ik de leeftijdsgroepen kon zien van de mannen die zelfmoord pleegde door de jaren heen.
+    Het valt meteen op dat de ouderen veel eerder geneigd zijn om zelfmoord te plegen dan de jongere generatie. Het zit hem vooral in de leeftijd vanaf 40 jaar.
+    Ook neemt de zelfmoorden erg toe door de jaren heen. Hier ging ik verder op door online te gaan zoeken naar de reden hiervoor. Het viel online al snel op dat
+    er heel veel artikelen waren over waarom mannen zoveel zelfmoord plegen in vergelijking met vrouwen. Diverse bronnen gaven aan dat mannen moeilijker hun
+    emoties uiten en niet vaak praten over hoe ze zich voelen. Ook werd er altijd genoemd dat het komt door de slechte relatie die mannen hebben met hun ouders
+    en dan voornamelijk op het gebied van vaders.
+  </p>
+  <p>
+    Ik ging online opzoek naar cijfers voor scheidingen door de jaren heen. De cijfers lieten zien dat deze door de jaren voormalijk omhoog is gegaan. Dit wou
+    ik door middel van een lijngrafiek laten zien die door de bars gingen. De lijn staat voor de aantal scheidingen en de bars staan voor de aantal zelfmoorden.
+    Dit laat zien dat er een verband is tussen de twee en dat ze op gelijke manier omhoog gaan. 
+  </p>
+  </div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
