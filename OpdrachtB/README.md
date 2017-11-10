@@ -24,4 +24,4 @@ Als de gebruiker op het product komt dan ziet hij meteen de vragen op het scherm
 * [Artikel waarom mannen zoveel zelfmoord plegen](https://www.rtlnieuws.nl/nederland/waarom-plegen-mannen-vaker-zelfmoord-dan-vrouwen)
 * [Artikel waarom mannen zoveel zelfmoord plegen](https://www.nrc.nl/nieuws/2017/09/15/we-hebben-mijn-broer-laten-wegglippen-13016502-a1573465)
 
-[cover]: preview.png
+[cover]: previewb.png
