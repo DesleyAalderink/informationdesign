@@ -11,6 +11,9 @@ Voor de opdracht wou ik de volgende inzichten kunnen zien:
 * Is het zelfmoord gestegen door de loop van jaren?
 
 ### Het process
+
+![alt text](schets1.png "eerste idee voor opdracht A")
+
 Het process verliep een beetje stroef. Ik had me eerst gefocussed op zelfmoord en de burgelijke staat. Dit moest aantonen dat
 scheidingen invloed heeft op zelfmoord, maar ik had geen bewijs of goed genoeg onderzoek ernaar gedaan om dit te kunnen zeggen.
 Ik ging dus meer op onderzoek uit om een goed verband te kunnen vinden. Ik ging eerst opzoek naar het geslacht van de mensen die zelfmoord pleegde.
